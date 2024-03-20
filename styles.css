@@ -37,10 +37,9 @@ header {
 }
 
 .form-row {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
@@ -92,17 +91,18 @@ header {
 }
 
 .legacy-form-row {
+    margin-top: 10px;
     border: none; 
 }
 
 .legacy-form-row legend{
-    float: left;
-    margin-left: 30px;
+
+    margin-left: 0.5rem;
 }
 
 .legacy-form-row input[type="radio"] {
-    margin-top: 2px;
-    margin-left: 30px;
+
+    margin-left: 50px;
 }
 
 .legacy-form-row {
@@ -116,8 +116,6 @@ header {
 .legacy-form-row input[type="radio"] {
     margin-top: 2x;
 }
-
-
 
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
